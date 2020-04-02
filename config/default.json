@@ -1,0 +1,9 @@
+{
+    "port": 5000,
+    "jwtSecret": "markevichkonstantin",
+    "mongoUri": "mongodb+srv://konstantin:1234qwer@cluster0-i72ws.azure.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+  
+  }
+  
+  

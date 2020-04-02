@@ -1,0 +1,28 @@
+{
+  "name": "itra",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Markevich konstantin <konstantinmarkevich@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.2",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.3",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {},
+  "description": ""
+}
